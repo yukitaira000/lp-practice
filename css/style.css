@@ -1,1 +1,190 @@
-@charset "utf-8";
+@charset "UTF-8";
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.header-inner {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #8c8c8c;
+  padding: 15px 0;
+}
+
+.contact-text {
+  text-decoration: none;
+  color: #fff;
+  background-color: #6ba7eb;
+  font-size: 12px;
+  padding: 12px 14px;
+}
+
+.keyvisual {
+  background-image: url(../img/keyvisual/keyvisual.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.keyvisual-text {
+  text-align: center;
+  padding: 400px 0;
+}
+
+h1 {
+  color: #6CA6EA;
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+
+.keyvisual-text p {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.work {
+  background: #e3f2fd;
+}
+
+.work-inner {
+  display: flex;
+  align-items: center;
+}
+
+.work-img {
+  width: 40%;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.work-img img {
+  width: 240px;
+  height: 200px;
+}
+
+.work-text {
+  text-align: center;
+  width: 60%;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+.work-text h2 {
+  margin-bottom: 15px;
+}
+
+.work-text p {
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+}
+
+.skills {
+  background: #fff;
+}
+
+.skills-inner h2 {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.skills-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-img {
+  width: 300px;
+  height: 300px;
+  margin: 0 100px 100px 0;
+}
+
+.skills-img:nth-child(3),.skills-img:nth-child(6) {
+  margin-right: 0;
+}
+
+.skills-img:nth-child(4),.skills-img:nth-child(5),.skills-img:nth-child(6) {
+  margin-bottom: 70px;
+}
+
+.plan {
+  background: #d0dfea;
+}
+
+.plan-inner {
+  text-align: center;
+  padding: 50px 0;
+}
+
+thead,tbody {
+  text-align: center;
+}
+
+.plan-table {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 50px;
+  table-layout: fixed;
+}
+
+thead {
+  background: #6ba7eb;
+}
+
+tbody {
+  background: #f9f9f9;
+}
+
+th,td {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  border-left: 2px solid #fff;
+}
+
+tr th:first-child {
+  border-left: none;
+}
+
+tbody tr:nth-child(even) {
+  background: #e0efff;
+}
+
+.icon {
+  background: #e3f2fd;
+}
+
+.icon-inner {
+  text-align: center;
+}
+
+.icon-flex a {
+  margin: 200px 0;
+  width: 185px;
+  padding: 25px 0;
+  color: #8c8c8c;
+  overflow: hidden;
+  font-size: 40px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+footer {
+  background: #cfd8dc;
+}
+
+.footer-inner p{
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  padding: 20px 0 25px;
+  text-align: right;
+}
