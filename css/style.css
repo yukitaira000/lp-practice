@@ -25,6 +25,10 @@
   padding: 12px 14px;
 }
 
+.contact-text:hover {
+  color: #333;
+}
+
 .keyvisual {
   background-image: url(../img/keyvisual/keyvisual.jpg);
   background-repeat: no-repeat;
@@ -106,6 +110,11 @@ h2 {
   width: 300px;
   height: 300px;
   margin: 0 100px 100px 0;
+  opacity: 0.7;
+}
+
+.skills-img:hover {
+  opacity: 1.0;
 }
 
 .skills-img:nth-child(3),.skills-img:nth-child(6) {
@@ -176,6 +185,11 @@ tbody tr:nth-child(even) {
   font-size: 40px;
   display: inline-block;
   text-decoration: none;
+  transition: .5s;
+}
+
+.icon-flex a:hover {
+  background: #fff;
 }
 
 footer {
