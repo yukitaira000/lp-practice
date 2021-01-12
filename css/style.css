@@ -50,13 +50,13 @@ main {
   padding: 400px 0;
 }
 
-h1 {
+.keyvisual-title {
   color: #6CA6EA;
   font-size: 64px;
   margin-bottom: 30px;
 }
 
-.keyvisual-text p {
+.keyvisual-lead {
   color: #fff;
   font-size: 40px;
   font-weight: bold;
@@ -64,6 +64,7 @@ h1 {
 
 .work {
   background: #e3f2fd;
+  padding-top: 50px;
 }
 
 .work-inner {
@@ -73,7 +74,6 @@ h1 {
 
 .work-img {
   width: 40%;
-  padding-top: 50px;
   text-align: center;
 }
 
@@ -92,11 +92,11 @@ h2 {
   letter-spacing: 10px;
 }
 
-.work-text h2 {
+.work-title {
   margin-bottom: 15px;
 }
 
-.work-text p {
+.work-content {
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
@@ -104,10 +104,11 @@ h2 {
 
 .skills {
   background: #fff;
+  padding: 50px 0 70px;
 }
 
-.skills-inner h2 {
-  margin: 50px 0;
+.skills-title {
+  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -117,12 +118,19 @@ h2 {
   clear: both;
 }
 
-.skills-flex img {
+.skills-img {
   float: left;
-  width: 300px;
-  height: 300px;
   margin: 0 100px 100px 0;
   opacity: 0.7;
+}
+
+.skills-img a {
+  text-decoration: none;
+}
+
+.skills-img img {
+  width: 300px;
+  height: 300px;
 }
 
 .skills-img:hover {
@@ -134,7 +142,7 @@ h2 {
 }
 
 .skills-img:nth-child(4),.skills-img:nth-child(5),.skills-img:nth-child(6) {
-  margin-bottom: 70px;
+  margin-bottom: 0;
 }
 
 .plan {
