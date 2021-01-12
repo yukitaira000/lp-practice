@@ -13,7 +13,7 @@ header {
   background-color: #fff;
 }
 
-nav {
+.header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,11 +43,12 @@ main {
   background-image: url(../img/keyvisual/keyvisual.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 400px 0;
 }
 
 .keyvisual-text {
   text-align: center;
-  padding: 400px 0;
+  /* padding: 400px 0; */
 }
 
 .keyvisual-title {
@@ -104,7 +105,8 @@ h2 {
 
 .skills {
   background: #fff;
-  padding: 50px 0 70px;
+  padding-top: 50px;
+  margin-bottom: 70px;
 }
 
 .skills-title {
@@ -147,11 +149,11 @@ h2 {
 
 .plan {
   background: #d0dfea;
+  padding: 50px 0;
 }
 
 .plan-inner {
   text-align: center;
-  padding: 50px 0;
 }
 
 thead,tbody {
@@ -193,11 +195,11 @@ tbody tr:nth-child(even) {
 }
 
 .icon-inner {
+  padding: 200px 0;
   text-align: center;
 }
 
 .icon-flex a {
-  margin: 200px 0;
   width: 185px;
   padding: 25px 0;
   color: #8c8c8c;
