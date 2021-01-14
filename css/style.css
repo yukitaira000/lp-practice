@@ -104,12 +104,11 @@ h2 {
 
 .skills {
   background: #fff;
-  padding-top: 50px;
-  margin-bottom: 70px;
+  padding: 50px 0 70px;
 }
 
 .skills-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -190,26 +189,29 @@ tbody tr:nth-child(even) {
 }
 
 .icon {
+  padding: 200px 0;
   background: #e3f2fd;
 }
 
-.icon-inner {
-  padding: 200px 0;
+.icon-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-item {
+  width: 185px;
+  padding: 25px 0;
   text-align: center;
 }
 
-.icon-flex a {
-  width: 185px;
-  padding: 25px 0;
+.icon-item a {
+  text-decoration: none;
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
-  display: inline-block;
-  text-decoration: none;
-  transition: .5s;
 }
 
-.icon-flex a:hover {
+.icon-item:hover {
   background: #fff;
 }
 
