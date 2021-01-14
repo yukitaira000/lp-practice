@@ -194,25 +194,22 @@ tbody tr:nth-child(even) {
   background: #e3f2fd;
 }
 
-.icon-nav {
+.icon-item {
   display: flex;
   justify-content: center;
 }
 
-.icon-item {
+.icon-item a {
   width: 185px;
   padding: 25px 0;
   text-align: center;
-}
-
-.icon-item a {
   text-decoration: none;
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
 }
 
-.icon-item:hover {
+.icon-item a:hover {
   background: #fff;
 }
 
