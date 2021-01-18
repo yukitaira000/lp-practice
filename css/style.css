@@ -139,7 +139,7 @@ h2 {
   opacity: 1.0;
 }
 
-.skills-img:nth-child(3),.skills-img:nth-child(6) {
+.skills-img:nth-child(3n) {
   margin-right: 0;
 }
 
