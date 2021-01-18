@@ -29,6 +29,7 @@ header {
   background-color: #6ba7eb;
   font-size: 12px;
   padding: 12px 14px;
+  transition: 0.3s;
 }
 
 .contact-text:hover {
@@ -207,6 +208,7 @@ tbody tr:nth-child(even) {
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
+  transition: .5s;
 }
 
 .icon-item a:hover {
