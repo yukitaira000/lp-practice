@@ -38,10 +38,8 @@ header {
   transition: 0.3s;
 }
 
-@media screen and (min-width: 768px){
-  #ham,#menu-icon,.ham-menu {
-    display: none;
-  }
+#ham,#menu-icon,.ham-menu {
+  display: none;
 }
 
 
@@ -194,14 +192,11 @@ h2 {
   letter-spacing: 10px;
 }
 
-.work-title {
-  margin-bottom: 15px;
-}
-
 .work-content {
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
+  margin-top: 15px;
 }
 
 .skills {
