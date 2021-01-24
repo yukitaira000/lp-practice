@@ -36,8 +36,6 @@ header {
   display: none;
 }
 
-
-
 .contact-text:hover {
   color: #333;
 }
@@ -238,38 +236,38 @@ footer {
   .inner {
     width: 97%;
   }
-  
+
   .keyvisual {
     padding: 250px 0;
   }
-  
+
   .work {
     padding: 50px 0;
   }
-  
+
   .work-inner {
     flex-direction: column;
   }
-  
+
   .work-img {
     width: 100%;
   }
-  
+
   .work-text {
     width: 100%;
     margin-top: 10px;
   }
-  
+
   .skills-img {
     float: none;
     margin: 0;
     text-align: center;
   }
-  
+
   .skills-img:nth-child(3n) {
     margin-bottom: 50px;
   }
-  
+
   .skills-img:last-child {
     margin-bottom: 0;
   }
@@ -280,34 +278,34 @@ footer {
   .keyvisual {
     padding: 200px 0;
   }
-  
+
   .keyvisual-title {
     font-size: 40px;
   }
-  
+
   .keyvisual-lead {
     font-size: 30px;
   }
-  
+
   th {
     font-size: 14px;
     line-height: 22px;
   }
-  
+
   td {
     font-size: 12px;
   }
-  
+
   .icon {
     padding: 50px 15px;
   }
-  
+
   .icon-item a {
     display: block;
     width: 100%;
     padding: 50px 0;
   }
-  
+
   .contact {
     display: none;
   }
@@ -321,7 +319,7 @@ footer {
     border: 1px solid #cfd8dc;
     border-radius: 10px;
   }
-  
+
   .ham-line {
     position: absolute;
     left: 10px;
@@ -332,7 +330,7 @@ footer {
     display: inline-block;
     box-sizing: border-box;
   }
-  
+
   .ham-line:nth-child(1) {
     top: 8px;
   }
@@ -340,7 +338,7 @@ footer {
   .ham-line:nth-child(2) {
     top: 17px;
   }
-  
+
   .ham-line:nth-child(3) {
     bottom: 8px;
   }
